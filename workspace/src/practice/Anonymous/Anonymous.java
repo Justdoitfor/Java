@@ -4,6 +4,8 @@ package practice.Anonymous;
 new 对象名（）；
 注意事项：匿名对象只能使用唯一一次，下次使用不得再创建一个新对象
 如果确定有一个对象只需使用一次，则可以使用匿名对象
+
+
  */
 public class Anonymous {
     public static void main(String[] args) {
