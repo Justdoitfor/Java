@@ -10,6 +10,7 @@ public class Demo02StringPool {
         String str1 = "abc";
         String str2 = "abc";
 
+
         char[] charArray = {'a','b','c'};
         String str3 = new String(charArray);
 
