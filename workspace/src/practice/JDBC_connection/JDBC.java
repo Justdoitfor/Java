@@ -15,7 +15,7 @@ import java.sql.Statement;
 public class JDBC {
 
     public static void jdbcTest(){
-        // 注册 mysql 驱动
+        
         // mysql服务端地址,注意：数据库后面需要添加?serverTimezone=UTC
         // 因为使用Mysql Connector/J 8.x时发生时区的错误
         String url = "jdbc:mysql://localhost:3306/DATABASE_NAME?serverTimezone=UTC";
@@ -28,6 +28,7 @@ public class JDBC {
         ResultSet resultset = null;
 
         try {
+            // 注册 mysql 驱动
             DriverManager.registerDriver(new Driver());
 
             // connection 代表跟mysql服务端的一个连接
